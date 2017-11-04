@@ -6,15 +6,17 @@
 #define RUSH00_RETRO_HPP
 
 #include "Ncurs.hpp"
-#include "Hero.hpp"
+#include "Enemy.hpp"
+#include "SpaceShip.hpp"
 class Retro {
 public:
     int x_size;
     int y_size;
     Ncurs ncurs;
     int play;
-    Hero hero;
-    SpaceObj obj;
+    Enemy obj;
+    SpaceShip hero;
+
 
     Retro(int x, int y);
     Retro();

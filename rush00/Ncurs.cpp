@@ -47,6 +47,6 @@ void Ncurs::draw_border() {
     mvwaddch(stdscr, this->y_size + 2, this->x_size + 2, '+');
 }
 
-void Ncurs::draw_obj(SpaceObj obj) {
-    mvwaddch(stdscr, obj.y, obj.x, obj.c);
+void Ncurs::draw_obj(SpaceObject obj) {
+    mvwaddch(stdscr, obj.getY(), obj.getX(), obj.getC());
 }

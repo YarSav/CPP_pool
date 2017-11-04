@@ -6,7 +6,7 @@
 #define RUSH00_NCURS_HPP
 
 #include "ncurses.h"
-#include "SpaceObj.hpp"
+#include "SpaceObject.hpp"
 class Ncurs {
 public:
     int x_size;
@@ -21,7 +21,7 @@ public:
 
 
     void draw_border();
-    void draw_obj(SpaceObj obj);
+    void draw_obj(SpaceObject obj);
 
 };
 

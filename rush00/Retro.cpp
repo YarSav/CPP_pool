@@ -15,7 +15,10 @@ void Retro::take_key(int key) {
         this->hero.move(this->x_size, this->y_size, 0, -1);
     if (key == 115)
         this->hero.move(this->x_size, this->y_size, 0, 1);
-
+    if (key == 32)
+    {
+        this->hero.attack();
+    }
 
 }
 
@@ -43,11 +46,13 @@ Retro::Retro(Retro const &retro) {
     *this = retro;
 }
 void Retro::move_obj() {
-    this->obj.move(this->y_size);
+    this->obj.moveDown(this->y_size);
 }
 void Retro::draw_objects() {
     ncurs.draw_obj(this->hero);
-    ncurs.draw_obj(this->obj);
+    if (obj.getHP())
+        ncurs.draw_obj(this->obj);
+    
 }
 
 long getTime()
