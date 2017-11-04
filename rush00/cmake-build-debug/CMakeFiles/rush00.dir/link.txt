@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/rush00.dir/main.cpp.o  -o rush00 

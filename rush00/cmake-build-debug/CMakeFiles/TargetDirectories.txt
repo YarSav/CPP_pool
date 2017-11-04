@@ -1,0 +1,3 @@
+/home/ysavenko/CLionProjects/rush00/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ysavenko/CLionProjects/rush00/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ysavenko/CLionProjects/rush00/cmake-build-debug/CMakeFiles/rush00.dir
